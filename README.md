@@ -46,20 +46,78 @@
 
 <img width="718" alt="Build with settings" src="https://github.com/user-attachments/assets/bf2297fd-f215-43cc-8051-e0ef342bb5ab">
 
-
 6. В pom.xml необходимо поменять ссылки на репозиторий и nexus.
+
+<img width="627" alt="pom" src="https://github.com/user-attachments/assets/83321e08-9751-4e31-bcdc-9ee322878cf0">
+
+<img width="1268" alt="Build after change pom" src="https://github.com/user-attachments/assets/322e2844-cff8-4ada-9bc9-95b342af22c2">
+
 7. Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
+
+<img width="900" alt="Status build" src="https://github.com/user-attachments/assets/91359619-d4a4-413a-b2c9-2fddeadcb4e0">
+
+<img width="679" alt="Maven plaindoll" src="https://github.com/user-attachments/assets/ed1295a3-904c-4b68-a23a-e32c0e0e0975">
+
+<img width="317" alt="Maven plaindoll2" src="https://github.com/user-attachments/assets/127cb3ea-d2b2-44b8-8edd-f538e8ebc1bc">
+
 8. Мигрируйте `build configuration` в репозиторий.
+
+<img width="920" alt="Migration build conf" src="https://github.com/user-attachments/assets/58a14332-f431-4455-a898-bbe46581a006">
+
+[Link](https://github.com/sash3939/example-teamcity/tree/master/.teamcity/Netology)
+
 9. Создайте отдельную ветку `feature/add_reply` в репозитории.
+
+<img width="437" alt="Branch" src="https://github.com/user-attachments/assets/5c909df0-d514-498a-b598-43ce9ee88884">
+
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
+
+<img width="478" alt="New method Hunter" src="https://github.com/user-attachments/assets/7011b7f0-ab7a-4bba-b25c-d8ddf8c0dcbc">
+
 11. Дополните тест для нового метода на поиск слова `hunter` в новой реплике.
+
+<img width="534" alt="ReplicaHunter" src="https://github.com/user-attachments/assets/24969977-1f45-4e88-939e-e3974e699abb">
+
 12. Сделайте push всех изменений в новую ветку репозитория.
+
+<img width="752" alt="Push in new branch" src="https://github.com/user-attachments/assets/b96e2d90-affe-45b4-9c75-b526a411af5e">
+
+[New branch](https://github.com/sash3939/example-teamcity/tree/feature/add_reply0
+
 13. Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.
+
+<img width="1217" alt="Build_done_after_push" src="https://github.com/user-attachments/assets/ec13048e-288e-41fc-ad8b-9256c220ba0c">
+
 14. Внесите изменения из произвольной ветки `feature/add_reply` в `master` через `Merge`.
+
+<img width="402" alt="Git merge" src="https://github.com/user-attachments/assets/b3208217-0a42-4a23-a5f7-a46e13e8fd80">
+
+<img width="396" alt="Git merge1" src="https://github.com/user-attachments/assets/92aba8db-d9f8-4e10-aa96-f68838f1a2b9">
+
+<img width="721" alt="Push master" src="https://github.com/user-attachments/assets/133222fd-f948-432c-b8c7-aacb7d6460a7">
+
 15. Убедитесь, что нет собранного артефакта в сборке по ветке `master`.
+
+<img width="1041" alt="Build master after pushed" src="https://github.com/user-attachments/assets/fad3706f-5b85-4d74-83f1-1e8b0d750590">
+
+<img width="613" alt="Artefact nexus after pushed master" src="https://github.com/user-attachments/assets/7311a773-ef88-483e-8f93-23a3468fc405">
+
 16. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки.
+
+<img width="853" alt="Jar" src="https://github.com/user-attachments/assets/d3b01c1b-59d5-4b94-86a3-90b366761b42">
+
 17. Проведите повторную сборку мастера, убедитесь, что сбора прошла успешно и артефакты собраны.
+
+<img width="592" alt="Build after change jar in settings teamcity" src="https://github.com/user-attachments/assets/d3afac40-7313-4174-b999-dc41de0e828d">
+
+<img width="563" alt="Nexus change after last build" src="https://github.com/user-attachments/assets/dd553eab-4384-4954-b070-2125e2dcdb52">
+
 18. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity.
+
+<img width="839" alt="All settings in Repo" src="https://github.com/user-attachments/assets/e39076ef-ec27-4d11-886b-59f0ffc5f0f5">
+
 19. В ответе пришлите ссылку на репозиторий.
+
+[Repo_Link](https://github.com/sash3939/example-teamcity/)
 
 ---
