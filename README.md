@@ -58,6 +58,7 @@
 
 <img width="679" alt="Maven plaindoll" src="https://github.com/user-attachments/assets/ed1295a3-904c-4b68-a23a-e32c0e0e0975">
 
+
 <img width="317" alt="Maven plaindoll2" src="https://github.com/user-attachments/assets/127cb3ea-d2b2-44b8-8edd-f538e8ebc1bc">
 
 8. Мигрируйте `build configuration` в репозиторий.
