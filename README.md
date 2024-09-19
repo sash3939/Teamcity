@@ -83,7 +83,7 @@
 
 <img width="752" alt="Push in new branch" src="https://github.com/user-attachments/assets/b96e2d90-affe-45b4-9c75-b526a411af5e">
 
-[New branch](https://github.com/sash3939/example-teamcity/tree/feature/add_reply0
+[New branch](https://github.com/sash3939/example-teamcity/tree/feature/add_reply)
 
 13. Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.
 
